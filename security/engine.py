@@ -1,6 +1,7 @@
-import random
 import prompt
+
 from brain_games.cli import welcome_user
+
 
 def engine(brain_games) -> None:                                                                                              
     name = welcome_user()                                                                                                    

@@ -1,12 +1,7 @@
-import random
-
-def brain_even():
-
-    numbers = random.randint(1, 10)
-
-    meaning = print(f'Question: {numbers}') 
-    question = 'yes' if numbers % 2 == 0 else 'no'
-    return meaning, question
+from security.engine import engine
+from games.brain_even import brain_even
 
 
-
+def main():
+    print('Answer "yes" if the number is even, otherwise answer "no".')
+    engine(brain_even)

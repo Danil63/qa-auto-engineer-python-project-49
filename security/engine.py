@@ -2,11 +2,11 @@ import random
 import prompt
 from brain_games.cli import welcome_user
 
-def engine(brain_even) -> None:                                                                                              
+def engine(brain_games) -> None:                                                                                              
     name = welcome_user()                                                                                                    
                                                                                                                                
     for _ in range(3):                                                                                                       
-        numbers, question = brain_even()                                                                                     
+        numbers, question = brain_games()                                                                                     
         user_response = prompt.string("Your answer: ")
                                                                                                                                
         match user_response:

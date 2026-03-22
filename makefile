@@ -13,6 +13,9 @@ brain-gcb:
 brain-progression:
 	uv run brain-progression
 
+brain-prime:
+	uv run brain-prime
+
 
 build:
 	uv build

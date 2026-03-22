@@ -13,7 +13,8 @@ def brain_progression():
     question = str(progression[hidden_index])
     progression[hidden_index] = '..'
                                                                                                                                                           
-    numbers = print(' '.join(str(x) for x in progression))                                                                                                             
+    numbers = ' '.join(str(x) for x in progression)
+    print(f'Question: {numbers}')                                                                                                             
                                                                                                                                                           
     return numbers, question
                                           
